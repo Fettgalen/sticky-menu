@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 	<div id="content" class="row">
+		<a href="#" class="clickMe">Click me, bitch!</a>
 		<div class="hero-unit">
 			<h1>Hello!</h1>
 			<p>My name is Marcus Carlsson, this is my personal portfolio site. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt fermentum augue sed mattis. Phasellus eu ante eget magna elementum feugiat vel a lorem. Curabitur vestibulum gravida elementum. </p>

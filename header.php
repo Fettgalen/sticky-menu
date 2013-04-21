@@ -35,7 +35,7 @@
 <body <?php body_class(); ?>>
 	<div class="container">
 		<div id="pres" class="fixed">
-			<p>innehåll</P>
+			<p>Styling the WEB, one site at the time, beautifully</P>
 		</div>
 		<header id="menu" class="row">
 					<div class="navbar">

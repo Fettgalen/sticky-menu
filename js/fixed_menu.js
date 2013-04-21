@@ -10,7 +10,6 @@
 
 			$( '#menu' ).addClass('fixed');
 			$( '#content').removeAttr( 'style' );
-			//$( '#content' ).css({ 'margin-top':pres_height });
 			$( '#content' ).css({ 'margin-top':pres_height + menu_height});
 			$( '#menu' ).removeAttr( 'style' );
 
@@ -19,11 +18,9 @@
 
 	   		$( '#menu' ).removeClass( 'fixed' );
 	   		$( '#content' ).removeAttr( 'style' );
-	   		//$( '#content' ).css({ 'margin-top':menu_height });
 	   		$( '#menu' ).css({ 'margin-top':pres_height});
 
 	   }
-	   console.log( $(window).scrollTop(), pres_height);
 	});
 
 	// När fönstret når botten på pres, ta bort classen fixed.

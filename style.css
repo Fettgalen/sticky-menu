@@ -13,9 +13,9 @@ Version: 1.0;
 HEADER
 */
 #pres {
-  height: 220px;
+  height: 620px;
   width: 100%;
-  background: #62ab3d;
+  background: url('images/largelogo.png') no-repeat #62ab3d;
   z-index: 1;
 }
 #menu {
@@ -25,17 +25,19 @@ HEADER
   background: #6dc136;
   z-index: 3;
 }
+#menu li {
+  float: left;
+}
 /*
 CONTENT
 */
 #content {
   position: relative;
   z-index: 2;
+  background: #FFF;
 }
 .hero-unit {
-  height: 500px;
+  height: 800px;
   width: 960px;
-  background: #FFF;
-  border: 1px solid #6dc136;
 }
-/*what app duwd?!*/
+/*less helpers*/
